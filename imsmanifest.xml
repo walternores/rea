@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="eXe-MANIFEST-20260615180320HX3S4R"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_v1p2">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>imslrm.xml</adlcp:location>
+  </metadata>
+  <organizations default="eXe-20260615180320HX3S4R">
+    <organization identifier="eXe-20260615180320HX3S4R" structure="hierarchical">
+      <title>Bloques de Eventos</title>
+      <item identifier="ITEM-56b40904-e53f-4d51-922c-d0cf4d58d422" identifierref="RES-56b40904-e53f-4d51-922c-d0cf4d58d422" isvisible="true">
+        <title>Inicio</title>
+      </item>
+      <item identifier="ITEM-page-mqfj0aee-vn4j8tt8s" identifierref="RES-page-mqfj0aee-vn4j8tt8s" isvisible="true">
+        <title>bloques eventos</title>
+        <item identifier="ITEM-page-mqfj6jjs-2ttykpllg" identifierref="RES-page-mqfj6jjs-2ttykpllg" isvisible="true">
+          <title>Al hacer clic en la bandera verde</title>
+        </item>
+        <item identifier="ITEM-page-mqfjc1oo-dh0q6of7d" identifierref="RES-page-mqfjc1oo-dh0q6of7d" isvisible="true">
+          <title>Al presionar la tecla</title>
+        </item>
+        <item identifier="ITEM-page-mqfjet4e-ql3mgzdw6" identifierref="RES-page-mqfjet4e-ql3mgzdw6" isvisible="true">
+          <title>Al hacer clic en este objeto</title>
+        </item>
+        <item identifier="ITEM-page-mqfjhlzu-zmjkgc4xe" identifierref="RES-page-mqfjhlzu-zmjkgc4xe" isvisible="true">
+          <title>Cuando el fondo cambie a</title>
+        </item>
+        <item identifier="ITEM-page-mqfjjomk-cbgp3o39r" identifierref="RES-page-mqfjjomk-cbgp3o39r" isvisible="true">
+          <title>Cuando el volumen de sonido o el cronómetro sean mayor a un valor dado</title>
+        </item>
+        <item identifier="ITEM-page-mqfjmh5k-8j6efz9ec" identifierref="RES-page-mqfjmh5k-8j6efz9ec" isvisible="true">
+          <title>Al recibir</title>
+        </item>
+        <item identifier="ITEM-page-mqfjoyds-y97kdsgfu" identifierref="RES-page-mqfjoyds-y97kdsgfu" isvisible="true">
+          <title>Enviar un mensaje</title>
+        </item>
+        <item identifier="ITEM-page-mqfjqxw0-ddcarid9p" identifierref="RES-page-mqfjqxw0-ddcarid9p" isvisible="true">
+          <title>Enviar un determinado mensaje y esperar</title>
+        </item>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-56b40904-e53f-4d51-922c-d0cf4d58d422" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mqfj0aee-vn4j8tt8s" type="webcontent" adlcp:scormtype="sco" href="html/bloques-eventos.html">
+      <file href="html/bloques-eventos.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mqfj6jjs-2ttykpllg" type="webcontent" adlcp:scormtype="sco" href="html/al-hacer-clic-en-la-bandera-verde.html">
+      <file href="html/al-hacer-clic-en-la-bandera-verde.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mqfjc1oo-dh0q6of7d" type="webcontent" adlcp:scormtype="sco" href="html/al-presionar-la-tecla.html">
+      <file href="html/al-presionar-la-tecla.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mqfjet4e-ql3mgzdw6" type="webcontent" adlcp:scormtype="sco" href="html/al-hacer-clic-en-este-objeto.html">
+      <file href="html/al-hacer-clic-en-este-objeto.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mqfjhlzu-zmjkgc4xe" type="webcontent" adlcp:scormtype="sco" href="html/cuando-el-fondo-cambie-a.html">
+      <file href="html/cuando-el-fondo-cambie-a.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mqfjjomk-cbgp3o39r" type="webcontent" adlcp:scormtype="sco" href="html/cuando-el-volumen-de-sonido-o-el-cronometro-sean-m.html">
+      <file href="html/cuando-el-volumen-de-sonido-o-el-cronometro-sean-m.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mqfjmh5k-8j6efz9ec" type="webcontent" adlcp:scormtype="sco" href="html/al-recibir.html">
+      <file href="html/al-recibir.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mqfjoyds-y97kdsgfu" type="webcontent" adlcp:scormtype="sco" href="html/enviar-un-mensaje.html">
+      <file href="html/enviar-un-mensaje.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mqfjqxw0-ddcarid9p" type="webcontent" adlcp:scormtype="sco" href="html/enviar-un-determinado-mensaje-y-esperar.html">
+      <file href="html/enviar-un-determinado-mensaje-y-esperar.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="COMMON_FILES" type="webcontent" adlcp:scormtype="asset">
+      <file href="content.dtd"/>
+      <file href="content.xml"/>
+      <file href="content/css/base.css"/>
+      <file href="content/img/exe_powered_logo.png"/>
+      <file href="content/resources/11_04.png"/>
+      <file href="content/resources/Bloques de eventos en scratch.mp3"/>
+      <file href="content/resources/Eventos.png"/>
+      <file href="content/resources/Mario-5-Bowser.jpg"/>
+      <file href="content/resources/chico-mensajes.png"/>
+      <file href="content/resources/evento.png"/>
+      <file href="content/resources/evento_1.png"/>
+      <file href="content/resources/evento_2.png"/>
+      <file href="content/resources/evento_3.png"/>
+      <file href="content/resources/evento_4.png"/>
+      <file href="content/resources/evento_5.png"/>
+      <file href="content/resources/evento_6.png"/>
+      <file href="content/resources/evento_7.png"/>
+      <file href="content/resources/evento_8.png"/>
+      <file href="content/resources/evento_9.png"/>
+      <file href="content/resources/globo3.png"/>
+      <file href="content/resources/hq720.jpg"/>
+      <file href="content/resources/mceclip0.png"/>
+      <file href="idevices/text/exequextsq.svg"/>
+      <file href="idevices/text/text.css"/>
+      <file href="idevices/text/text.html"/>
+      <file href="idevices/text/text.js"/>
+      <file href="imslrm.xml"/>
+      <file href="libs/SCOFunctions.js"/>
+      <file href="libs/SCORM_API_wrapper.js"/>
+      <file href="libs/bootstrap/bootstrap.bundle.min.js"/>
+      <file href="libs/bootstrap/bootstrap.bundle.min.js.map"/>
+      <file href="libs/bootstrap/bootstrap.min.css"/>
+      <file href="libs/bootstrap/bootstrap.min.css.map"/>
+      <file href="libs/common.js"/>
+      <file href="libs/common_i18n.js"/>
+      <file href="libs/exe_export.js"/>
+      <file href="libs/favicon.ico"/>
+      <file href="libs/jquery/jquery.min.js"/>
+      <file href="theme/config.xml"/>
+      <file href="theme/fonts/Nunito-Bold.woff"/>
+      <file href="theme/fonts/Nunito-Bold.woff2"/>
+      <file href="theme/fonts/Nunito-BoldItalic.woff"/>
+      <file href="theme/fonts/Nunito-BoldItalic.woff2"/>
+      <file href="theme/fonts/Nunito-Italic.woff"/>
+      <file href="theme/fonts/Nunito-Italic.woff2"/>
+      <file href="theme/fonts/Nunito-Regular.woff"/>
+      <file href="theme/fonts/Nunito-Regular.woff2"/>
+      <file href="theme/icons/activity.png"/>
+      <file href="theme/icons/agreement.png"/>
+      <file href="theme/icons/alert.png"/>
+      <file href="theme/icons/arts.png"/>
+      <file href="theme/icons/ask.png"/>
+      <file href="theme/icons/book.png"/>
+      <file href="theme/icons/calculate.png"/>
+      <file href="theme/icons/case.png"/>
+      <file href="theme/icons/chrono.png"/>
+      <file href="theme/icons/collaborative.png"/>
+      <file href="theme/icons/competencies.png"/>
+      <file href="theme/icons/diary.png"/>
+      <file href="theme/icons/diary_alt.png"/>
+      <file href="theme/icons/discuss.png"/>
+      <file href="theme/icons/download.png"/>
+      <file href="theme/icons/draw.png"/>
+      <file href="theme/icons/english.png"/>
+      <file href="theme/icons/experiment.png"/>
+      <file href="theme/icons/explore.png"/>
+      <file href="theme/icons/file.png"/>
+      <file href="theme/icons/gallery.png"/>
+      <file href="theme/icons/geography.png"/>
+      <file href="theme/icons/guide.png"/>
+      <file href="theme/icons/history.png"/>
+      <file href="theme/icons/info.png"/>
+      <file href="theme/icons/interactive.png"/>
+      <file href="theme/icons/letters.png"/>
+      <file href="theme/icons/listen.png"/>
+      <file href="theme/icons/math.png"/>
+      <file href="theme/icons/music.png"/>
+      <file href="theme/icons/nature.png"/>
+      <file href="theme/icons/objetives.png"/>
+      <file href="theme/icons/observe.png"/>
+      <file href="theme/icons/passport.png"/>
+      <file href="theme/icons/perform.png"/>
+      <file href="theme/icons/piece.png"/>
+      <file href="theme/icons/pieces.png"/>
+      <file href="theme/icons/play.png"/>
+      <file href="theme/icons/present.png"/>
+      <file href="theme/icons/reflection.png"/>
+      <file href="theme/icons/roadmap.png"/>
+      <file href="theme/icons/share.png"/>
+      <file href="theme/icons/sport.png"/>
+      <file href="theme/icons/start.png"/>
+      <file href="theme/icons/stop.png"/>
+      <file href="theme/icons/suitcase.png"/>
+      <file href="theme/icons/technology.png"/>
+      <file href="theme/icons/think.png"/>
+      <file href="theme/icons/think_alt.png"/>
+      <file href="theme/icons/video.png"/>
+      <file href="theme/img/arrow.svg"/>
+      <file href="theme/img/arrow_back.svg"/>
+      <file href="theme/img/arrow_color.svg"/>
+      <file href="theme/img/arrow_down.svg"/>
+      <file href="theme/img/arrow_down_color.svg"/>
+      <file href="theme/img/arrow_down_white.svg"/>
+      <file href="theme/img/arrow_forward.svg"/>
+      <file href="theme/img/arrow_up.svg"/>
+      <file href="theme/img/arrow_up_white.svg"/>
+      <file href="theme/img/back_arrow.svg"/>
+      <file href="theme/img/background.png"/>
+      <file href="theme/img/book.svg"/>
+      <file href="theme/img/book_color.svg"/>
+      <file href="theme/img/book_white.svg"/>
+      <file href="theme/img/forward_arrow.svg"/>
+      <file href="theme/img/licenses.gif"/>
+      <file href="theme/img/logo.png"/>
+      <file href="theme/img/logo_responsive.png"/>
+      <file href="theme/img/menu_closed.svg"/>
+      <file href="theme/img/menu_open.svg"/>
+      <file href="theme/img/menu_open_black.svg"/>
+      <file href="theme/img/search.svg"/>
+      <file href="theme/img/switch.svg"/>
+      <file href="theme/img/switch_white.svg"/>
+      <file href="theme/img/teacher_hat.svg"/>
+      <file href="theme/screenshot.png"/>
+      <file href="theme/style.css"/>
+      <file href="theme/style.js"/>
+    </resource>
+  </resources>
+</manifest>
